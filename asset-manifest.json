@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/currency-and-crypto-converter/static/css/main.2b9ceb55.css",
-    "main.js": "/currency-and-crypto-converter/static/js/main.01369c80.js",
+    "main.css": "/currency-and-crypto-converter/static/css/main.00222696.css",
+    "main.js": "/currency-and-crypto-converter/static/js/main.fe199094.js",
+    "static/media/pexels-pixabay-210607.jpg": "/currency-and-crypto-converter/static/media/pexels-pixabay-210607.237766104ca884615138.jpg",
     "index.html": "/currency-and-crypto-converter/index.html",
-    "main.2b9ceb55.css.map": "/currency-and-crypto-converter/static/css/main.2b9ceb55.css.map",
-    "main.01369c80.js.map": "/currency-and-crypto-converter/static/js/main.01369c80.js.map"
+    "main.00222696.css.map": "/currency-and-crypto-converter/static/css/main.00222696.css.map",
+    "main.fe199094.js.map": "/currency-and-crypto-converter/static/js/main.fe199094.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b9ceb55.css",
-    "static/js/main.01369c80.js"
+    "static/css/main.00222696.css",
+    "static/js/main.fe199094.js"
   ]
 }
