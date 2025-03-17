@@ -1,8 +1,10 @@
 html{
   background-color: lightgray;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: linear-gradient(#1ebe94, #4a4795);
+  background-image: url('/public/pexels-pixabay-210607.jpg');
+  background-size: contain;
 }
+
 body{
   margin:0;
   display: flex;
@@ -17,14 +19,16 @@ h1{
   margin-bottom: 1rem;
   font-size: 3rem;
   color: white;
+  -webkit-text-stroke: 2px black;
 }
 
 .input{
   border: 3px solid #000000;
   border-radius: 0.35em;
   padding: 0.75rem;
-  width: 8em;
+  width: 9.5em;
   font-size: 1.5rem;
+  text-align: center;
 }
 .select{
   border: 3px solid #000000;
@@ -36,13 +40,26 @@ h1{
 
 .equals{
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2em;
+  padding-bottom: 1rem;
+  color: white;
 }
-button{
+
+
+.swap{
   border-radius: 20px;
   padding: 15px 25px 15px 25px;
   font-weight: bold;
   font-size: 20px;
+}
+.swap:hover{
+  background-color: #3b82f6;
+  cursor: pointer;
+  color: white;
+}
+.swap:active{
+  background-color: #7cade9;
+  color: white;
 }
 .converter {
   display: flex;
@@ -51,12 +68,18 @@ button{
   justify-content: center;
   height: 25em;
   width: 60em;
-  border: 10px double #ffffff;
-  border-radius: 10rem;
+  /* From https://css.glass glass morphism effect*/
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 .input-select-container {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: center;
+  gap: 1rem;
   margin-bottom: 1rem;
 }

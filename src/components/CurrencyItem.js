@@ -9,7 +9,7 @@ return (
           type="number"
           placeholder="0"
           className="input"
-          value={amount}
+          value={amount % 1 === 0 ? amount : Number(amount).toFixed(6)}
           onChange={onChangeAmount}
         />
         <Select

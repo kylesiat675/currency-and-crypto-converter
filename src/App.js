@@ -95,7 +95,8 @@ function App() {
           onChangeAmount={handleFromAmountChange}
           amount={fromAmount}
         />
-        <div className="equals">=</div>
+        <div className="equals">
+          v</div>
         {/*To Currency*/}
         <CurrencyItem
           optionsList={optionsList}
@@ -104,7 +105,7 @@ function App() {
           onChangeAmount={handleToAmountChange}
           amount={toAmount}
         />
-        <button onClick={handleSwapCurrencies}>Swap</button>
+        <button onClick={handleSwapCurrencies} className='swap'>Swap</button>
       </div>
     </>
   );
